@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production --config=webpack.config.prod.js",
+    "build": "webpack --config=webpack.config.prod.js",
     "build-dev": "webpack --config=webpack.config.dev.js",
     "start": "webpack-dev-server --config=webpack.config.dev.js --open"
   },
@@ -14,7 +14,7 @@
   ],
   "author": "Tyler Hawkins",
   "license": "ISC",
-  "devDependencies": {
+    "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
