@@ -1,3 +1,5 @@
+Source : https://www.freecodecamp.org/news/creating-a-production-ready-webpack-4-config-from-scratch/
+
 # Webpack Training 1
 
 This is an example repo to walk through a simple webpack config.
