@@ -3,8 +3,7 @@ var webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
-    mode: 'development',
-    watch: true,
+    mode: 'production',
     resolve: {
         extensions: ['.js', '.css', '.scss']
     },
