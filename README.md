@@ -7,3 +7,10 @@ This is an example repo to walk through a simple webpack config.
 ## Quickstart Instructions
 
 Run `yarn install` to install necessary dependencies.
+
+
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack",
+    "serve": "webpack serve"
